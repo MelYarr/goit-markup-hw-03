@@ -29,7 +29,7 @@
   max-width: 496px;
 }
 .style-header-medium {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -174,7 +174,7 @@ button {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
+  padding: 0 15px 72px 15px;
   margin: auto;
 }
 
