@@ -193,6 +193,7 @@ margin-right: 76px;
 }
 
 .nav-list {
+  gap: 40px;
   display: flex;
   align-items: center;
 }
@@ -204,8 +205,6 @@ margin-right: 76px;
 
 .logo {
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   width: 115px;
   height: 21px;
   font-family: "Raleway", sans-serif;
