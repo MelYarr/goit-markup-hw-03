@@ -195,6 +195,7 @@ button {
 }
 
 .header-contact {
+  gap: 40px;
   display: flex;
   align-items: center;
 }
@@ -254,10 +255,7 @@ button {
   font-style: normal;
   margin-left: auto;
 }
-.address
-.header-contact-map: {
-  gap: 40px;
-}
+
 
 /* body */
 
