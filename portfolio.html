@@ -26,36 +26,44 @@
   <body class="body">
     <!-- header -->
     <header class="header">
-      <div class="container">
+      <div class="header-container container">
         <nav class="header-nav">
-          <a class="logo list link" href="./index.html"
-            >Web<span class="logo-style">Studio</span>
-          </a>
-          <ul class="nav-list list">
-            <li>
-              <a class="link text-style-nav" href="./index.html">Studio</a>
-            </li>
-            <li>
-              <a class="link text-style-nav" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a class="link text-style-nav" href="">Contacts</a>
-            </li>
-          </ul>
+          <div class="header-logo">
+            <a href="./index.html" class="logo list link"
+              >Web<span class="logo-style">Studio</span>
+            </a>
+          </div>
+          <div>
+            <ul class="nav-list list">
+              <li class="nav-list-map">
+                <a class="link text-style-nav" href="./index.html">Studio</a>
+              </li>
+              <li class="nav-list-map">
+                <a class="link text-style-nav" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-list-map">
+                <a class="link text-style-nav" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <address class="address">
-          <ul class="list">
-            <li>
-              <a class="link p-text-style" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="link p-text-style" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
+          <div>
+            <ul class="list header-contact">
+              <li class="header-contact-map">
+                <a class="link p-text-style" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="header-contact-map">
+                <a class="link p-text-style" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </div>
         </address>
       </div>
     </header>
@@ -64,134 +72,142 @@
       <!-- Our project -->
       <section>
         <h1 hidden>hidden</h1>
-        <ul class="list">
-          <li><button class="port-btn" type="button">All</button></li>
-          <li><button class="port-btn" type="button">Web Site</button></li>
-          <li><button class="port-btn" type="button">App</button></li>
-          <li><button class="port-btn" type="button">Design</button></li>
-          <li><button class="port-btn" type="button">Marketing</button></li>
-        </ul>
-        <ul class="list">
-          <li>
-            <a href="" class="link">
-              <img
-                src="./images/Portfolio/img.jpg"
-                alt="BankInterfaceApp"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Banking App Interface Concept</h2>
-              <p class="p-text-style">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/Portfolio/img1.jpg"
-                alt="Cashless Payment App"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Cashless Payment</h2>
-              <p class="p-text-style">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/Portfolio/img2.jpg"
-                alt="Meditation App"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Meditation App</h2>
-              <p class="p-text-style">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/Portfolio/img3.jpg"
-                alt="Taxi Service"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Taxi Service</h2>
-              <p class="p-text-style">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/Portfolio/img4.jpg"
-                alt="Screen Illustrations"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Screen Illustrations</h2>
-              <p class="p-text-style">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/Portfolio/img5.jpg"
-                alt="Online Courses"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Online Courses</h2>
-              <p class="p-text-style">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/Portfolio/img6.jpg"
-                alt="Instagram Stories Concept"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Instagram Stories Concept</h2>
-              <p class="p-text-style">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/Portfolio/img7.jpg"
-                alt="Organic Food"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Organic Food</h2>
-              <p class="p-text-style">Web Site</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/Portfolio/img8.jpg"
-                alt="Fresh Coffee"
-                width="360"
-                height="300"
-              />
-              <h2 class="style-header-port">Fresh Coffee</h2>
-              <p class="p-text-style">Web Site</p>
-            </a>
-          </li>
-        </ul>
+        <div class="port-filter container">
+          <ul class="list port-button-filter">
+            <li><button class="port-btn" type="button">All</button></li>
+            <li><button class="port-btn" type="button">Web Site</button></li>
+            <li><button class="port-btn" type="button">App</button></li>
+            <li><button class="port-btn" type="button">Design</button></li>
+            <li><button class="port-btn" type="button">Marketing</button></li>
+          </ul>
+        </div>
+        <div class="port-card container">
+          <ul class="list card-set">
+            <li class="card-set-item-p">
+              <a href="" class="link">
+                <img
+                  src="./images/Portfolio/img.jpg"
+                  alt="BankInterfaceApp"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Banking App Interface Concept</h2>
+                <p class="p-text-style">App</p>
+              </a>
+            </li>
+            <li class="card-set-item-p">
+              <a class="link" href="">
+                <img
+                  src="./images/Portfolio/img1.jpg"
+                  alt="Cashless Payment App"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Cashless Payment</h2>
+                <p class="p-text-style">Marketing</p>
+              </a>
+            </li>
+            <li class="card-set-item-p">
+              <a class="link" href="">
+                <img
+                  src="./images/Portfolio/img2.jpg"
+                  alt="Meditation App"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Meditation App</h2>
+                <p class="p-text-style">App</p>
+              </a>
+            </li>
+            <li class="card-set-item-p">
+              <a class="link" href="">
+                <img
+                  src="./images/Portfolio/img3.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Taxi Service</h2>
+                <p class="p-text-style">Marketing</p>
+              </a>
+            </li>
+            <li class="card-set-item-p">
+              <a class="link" href="">
+                <img
+                  src="./images/Portfolio/img4.jpg"
+                  alt="Screen Illustrations"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Screen Illustrations</h2>
+                <p class="p-text-style">Design</p>
+              </a>
+            </li>
+            <li class="card-set-item-p">
+              <a class="link" href="">
+                <img
+                  src="./images/Portfolio/img5.jpg"
+                  alt="Online Courses"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Online Courses</h2>
+                <p class="p-text-style">Marketing</p>
+              </a>
+            </li>
+            <li class="card-set-item-p">
+              <a class="link" href="">
+                <img
+                  src="./images/Portfolio/img6.jpg"
+                  alt="Instagram Stories Concept"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Instagram Stories Concept</h2>
+                <p class="p-text-style">Design</p>
+              </a>
+            </li>
+            <li class="card-set-item-p">
+              <a class="link" href="">
+                <img
+                  src="./images/Portfolio/img7.jpg"
+                  alt="Organic Food"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Organic Food</h2>
+                <p class="p-text-style">Web Site</p>
+              </a>
+            </li>
+            <li class="card-set-item-p">
+              <a class="link" href="">
+                <img
+                  src="./images/Portfolio/img8.jpg"
+                  alt="Fresh Coffee"
+                  width="360"
+                  height="300"
+                />
+                <h2 class="style-header-port">Fresh Coffee</h2>
+                <p class="p-text-style">Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
-      <a class="logo list link" href="./index.html"
-        >Web<span class="footer-logo">Studio</span>
-      </a>
-      <p class="footer-p">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <div class="footer-logo-pos">
+          <a class="logo list link" href="./index.html"
+            >Web<span class="footer-logo">Studio</span>
+          </a>
+        </div>
+        <p class="footer-p">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

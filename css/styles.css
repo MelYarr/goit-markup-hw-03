@@ -15,6 +15,7 @@
 /* others */
   --indent: 24px;
   --items: 4;
+  --items-p: 3;
 }
 .style-header-main {
  margin-left: auto;
@@ -38,6 +39,7 @@ margin-right: auto;
   color: var(--color-grey);
 }
 .style-header-port {
+  margin: 32px 0 8px 16px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -93,9 +95,9 @@ border-radius: 0px 0px 4px 4px;
   min-width: 169px;
   height: 56px;
   margin-top: 48px;
-   margin-left: auto;
-   margin-right: auto;
-   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
   color: var(--background-color);
   background-color: var(--color-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -136,7 +138,10 @@ gap: var(--indent);
 .card-set-item{
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
-
+.card-set-item-p{
+  padding-bottom: 48px;
+flex-basis: calc((100% - var(--indent) * (var(--items-p) - 1)) / var(--items-p));
+}
 /* reset */
 h1,h2,h3,h4,h5,h6,p {
   margin: 0;
@@ -167,7 +172,7 @@ button{
 
 /* header */
 .header{
- 
+  border-bottom: 1px solid #E7E9FC;
 }
 .header-logo{
 margin-right: 76px;
@@ -322,7 +327,30 @@ padding-top: 120px;
   background-color: var(--color-navy-blue);
 }
 
+/************* portfolio ************/
+.port-card{
+  padding-bottom: 120px;
+}
+.port-filter{
 
+}
+
+.port-button-filter{
+  padding-top: 96px;
+  padding-bottom: 72px;
+  padding-left: 427px;
+  display: flex;
+  gap: 24px;
+
+
+}
+.p-text-style {
+  margin-left: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-list);
+}
 .port-btn {
   color: var(--color-iris);
   background-color: var(--color-cloud);
@@ -332,6 +360,8 @@ padding-top: 120px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 .port-btn:hover,
 .port-btn:focus {
