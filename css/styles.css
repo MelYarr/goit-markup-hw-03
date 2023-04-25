@@ -174,7 +174,7 @@ button {
 
 .container {
   width: 1158px;
-  padding: 0 15px 72px 15px;
+  padding: 0 15px;
   margin: auto;
 }
 
@@ -273,7 +273,7 @@ button {
 .section {
   padding: 120px 0;
 }
-.second-section {
+.section-pad-bot {
   padding-bottom: 120px;
 }
 .principles-section {
