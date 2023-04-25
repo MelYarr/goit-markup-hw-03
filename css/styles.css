@@ -61,6 +61,13 @@
   letter-spacing: 0.02em;
   color: var(--color-list);
 }
+.descr-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .card-text {
   margin-top: 32px;
   margin-bottom: 8px;
@@ -255,7 +262,6 @@ button {
   font-style: normal;
   margin-left: auto;
 }
-
 
 /* body */
 
