@@ -20,7 +20,6 @@
 .style-header-main {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -208,6 +207,7 @@ button {
 }
 
 .nav-list {
+  padding: 24px 0 24px 0;
   gap: 40px;
   display: flex;
   align-items: center;
@@ -355,11 +355,13 @@ button {
 }
 
 /************* portfolio ************/
+
 .port-card {
   padding-bottom: 120px;
 }
 .port-filter {
 }
+
 
 .port-button-filter {
   padding-top: 96px;
