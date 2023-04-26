@@ -146,6 +146,7 @@
   row-gap: 48px;
 }
 .card-set-item {
+  gap: 24px;
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 .card-set-item-p {
