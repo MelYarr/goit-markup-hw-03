@@ -142,7 +142,7 @@
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 44px;
   row-gap: 48px;
 }
 .card-set-item {
