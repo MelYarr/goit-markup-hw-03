@@ -140,8 +140,8 @@
 
 /* card set */
 .card-set {
-  display: flex;
   gap: 24px;
+  display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
 }
