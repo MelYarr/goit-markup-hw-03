@@ -38,7 +38,7 @@
   color: var(--color-grey);
 }
 .style-header-port {
-  margin: 32px 0 8px 16px;
+  padding-left: 16px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -140,6 +140,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
+  row-gap: 48px;
 }
 .card-set-item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
@@ -394,4 +395,10 @@ button {
   color: var(--background-color);
   background-color: var(--color-ocean);
   border: 1px solid transparent;
+}
+.port-item-text{
+  padding: 32px 16px;
+  border: 1px solid var(--color-cornflower);
+border-top: none;
+margin-bottom: 8px;
 }
