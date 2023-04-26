@@ -316,7 +316,10 @@ button {
   height: 380px;
   background-color: var(--background-color);
 }
-
+.doing-list{
+  gap: 24px;
+  display: flex;
+}
 .our-team-section {
   background-color: var(--color-cloud);
 }
