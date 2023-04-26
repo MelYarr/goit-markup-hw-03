@@ -356,9 +356,6 @@ button {
 
 /************* portfolio ************/
 
-.port-card {
-  padding-bottom: 120px;
-}
 .port-filter {
 }
 .port-container{
@@ -367,9 +364,9 @@ button {
 }
 
 .port-button-filter {
-  padding-bottom: 72px;
-  padding-left: 427px;
+  margin-bottom: 72px;
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 .p-text-style {
@@ -380,6 +377,7 @@ button {
   color: var(--color-list);
 }
 .port-btn {
+  padding: 12px 24px;
   color: var(--color-iris);
   background-color: var(--color-cloud);
   font-family: "Roboto", sans-serif;
@@ -395,4 +393,5 @@ button {
 .port-btn:focus {
   color: var(--background-color);
   background-color: var(--color-ocean);
+  border: 1px solid transparent;
 }
