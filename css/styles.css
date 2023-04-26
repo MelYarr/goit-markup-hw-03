@@ -38,7 +38,8 @@
   color: var(--color-grey);
 }
 .style-header-port {
-  padding-left: 16px;
+  margin-left: 16px;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -47,6 +48,7 @@
   color: var(--color-grey);
 }
 .style-header-small {
+  margin-left: 16px;
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
@@ -55,9 +57,11 @@
   color: var(--color-grey);
 }
 .p-text-style {
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: left;
   color: var(--color-list);
 }
 .descr-container {
@@ -68,7 +72,6 @@
 }
 
 .card-text {
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
   margin-bottom: 8px;
@@ -358,9 +361,9 @@ button {
 
 .port-filter {
 }
-.port-container{
+.port-container {
   padding-top: 96px;
-   padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .port-button-filter {
@@ -395,9 +398,9 @@ button {
   background-color: var(--color-ocean);
   border: 1px solid transparent;
 }
-.port-item-text{
+.port-item-text {
   padding: 32px 16px;
   border: 1px solid var(--color-cornflower);
-border-top: none;
-margin-bottom: 8px;
+  border-top: none;
+  margin-bottom: 8px;
 }
