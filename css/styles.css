@@ -141,8 +141,8 @@
 /* card set */
 .card-set {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
+  flex-wrap: wrap;
   row-gap: 48px;
 }
 .card-set-item {
